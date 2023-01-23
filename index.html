@@ -20,24 +20,28 @@
 <body>
 
   <nav>
-    <div class="warpper">
+    <div class="wrapper">
       <div class="nav-section">
-        <div class="logo__hambuger-icon">
+        <div class="flex logo__hambuger-icon">
           <img src="/images/logo-bookmark.svg" alt="company's logo">
-          <img src="/images/icon-hamburger.svg" alt="hambuger icon for mobile screen size navbar">
+          <button class="hambuger-menu"> <img src="/images/icon-hamburger.svg"
+              alt="hambuger icon for mobile screen size navbar"></button>
         </div>
         <!-- navlinks -->
         <div class="navlinks-container" aria-hidden="true">
 
-          <div class="logo__close-icon-mobile">
+          <div class="logo__close-icon-mobile flex">
             <img src="/images/logo-bookmark.svg" alt="company's logo image">
-            <img src="/images/icon-close.svg" alt="close button to hide the navbar links for mobile screen size">
+            <button class="close-button">
+              <img src="/images/icon-close.svg" alt="close button to hide the navbar links for mobile screen size">
+            </button>
           </div>
+
           <ul>
             <li class="list"><a href="#">Features</a></li>
             <li class="list"><a href="#">Pricing</a></li>
             <li class="list"><a href="#">Contact</a></li>
-            <li class="list"><a href="#">Login</a></li>
+            <li class="list"><a href="#" class="login">Login</a></li>
           </ul>
 
           <div class="navbar-social__links">
@@ -90,6 +94,7 @@
   <section class="middle-content">
     <div class="wrapper">
       <div class="middle-card">
+        <!-- first card -->
         <div class="middle-img">
           <img src="/images/illustration-features-tab-1.svg" alt="a web page illustraction showing a website layout">
           <div class="img-bg"></div>
@@ -114,20 +119,22 @@
           No need to trawl through all of your bookmarks.
         </p>
       </div>
+      <!-- third card -->
+      <div class="middle-img">
+        <img src="/images/illustration-features-tab-1.svg" alt="a web page illustraction showing a website layout">
+        <div class="img-bg"></div>
+      </div>
+      <div class="middle-text__info">
+        <h1>Share your bookmarks</h1>
+        <p>
+          Easily share your bookmarks and collections with others. Create a shareable
+          link that you can send at the click of a button.
+        </p>
+      </div>
     </div>
-    <!-- third card -->
-    <div class="middle-img">
-      <img src="/images/illustration-features-tab-1.svg" alt="a web page illustraction showing a website layout">
-      <div class="img-bg"></div>
     </div>
-    <div class="middle-text__info">
-      <h1>Share your bookmarks</h1>
-      <p>
-        Easily share your bookmarks and collections with others. Create a shareable
-        link that you can send at the click of a button.
-      </p>
-    </div>
-    </div>
+
+
 
     </div>
 
