@@ -96,11 +96,12 @@
         </div>
         <div class="middle-links">
 
-          <button class="active mid-btn"> Simple Bookmarking <span class="selected"></span></button>
-          <button class="mid-btn"> Speedy Searching <span></span></button>
-          <button class="mid-btn"> Easy Sharing <span></span></button>
+          <button class="active mid-btn" data-id="Simple Bookmarking"> Simple Bookmarking <span
+              class="selected"></span></button>
+          <button class="mid-btn" data-id="Speedy Searching"> Speedy Searching <span></span></button>
+          <button class="mid-btn" data-id="Easy Sharing"> Easy Sharing <span></span></button>
         </div>
-    </div>
+      </div>
 
       <div class="middle-content">
         <div class="flex middle-card">
@@ -128,136 +129,156 @@
 
   <section class="extention__download">
     <div class="wrapper">
-      <div class="text-style download-card__container">
-        <h1>Download the extension</h1>
-        <p> We’ve got more browsers in the pipeline. Please do let us know if you’ve
-          got a favourite you’d like us to prioritize.</p>
-      </div>
+      <div class="extension-box">
+        <div class="text-style download-card__container">
+          <h1>Download the extension</h1>
+          <p> We’ve got more browsers in the pipeline. Please do let us know if you’ve
+            got a favourite you’d like us to prioritize.</p>
+        </div>
 
-      <div class="flex download-extension__card">
-        <!-- card 1 -->
-        <div class="flex download-card">
-          <img src="/images/logo-chrome.svg" alt="google chrome icon">
-          <h3>Add to Chrome</h3>
-          <p>Minimum version 62</p>
-          <img src="/images/bg-dots.svg" alt=" a dotted line image used to seperate the paragraph from the link">
-          <a href="#" class="btns blue-bg__btn"> Add & Install Extension</a>
-        </div>
-        <!-- card 2 -->
-        <div class="flex download-card">
-          <img src="/images/logo-firefox.svg" alt="google chrome icon">
-          <h3>Add to Firefox</h3>
-          <p>Minimum version 55</p>
-          <img src="/images/bg-dots.svg" alt=" a dotted line image used to seperate the paragraph from the link">
-          <a href="#" class="btns blue-bg__btn"> Add & Install Extension</a>
-        </div>
-        <!-- card 3 -->
-        <div class="flex download-card">
-          <img src="/images/logo-opera.svg" alt="google chrome icon">
-          <h3>Add to Opera</h3>
-          <p>Minimum version 46</p>
-          <img src="/images/bg-dots.svg" alt=" a dotted line image used to seperate the paragraph from the link">
-          <a href="#" class="btns blue-bg__btn"> Add & Install Extension</a>
+        <div class="flex download-extension__card">
+          <!-- card 1 -->
+          <div class="flex download-card">
+            <img src="/images/logo-chrome.svg" alt="google chrome icon">
+            <h3>Add to Chrome</h3>
+            <p>Minimum version 62</p>
+            <img src="/images/bg-dots.svg" alt=" a dotted line image used to seperate the paragraph from the link">
+            <a href="#" class="btns blue-bg__btn"> Add & Install Extension</a>
+          </div>
+          <!-- card 2 -->
+          <div class="flex download-card">
+            <img src="/images/logo-firefox.svg" alt="google chrome icon">
+            <h3>Add to Firefox</h3>
+            <p>Minimum version 55</p>
+            <img src="/images/bg-dots.svg" alt=" a dotted line image used to seperate the paragraph from the link">
+            <a href="#" class="btns blue-bg__btn"> Add & Install Extension</a>
+          </div>
+          <!-- card 3 -->
+          <div class="flex download-card">
+            <img src="/images/logo-opera.svg" alt="google chrome icon">
+            <h3>Add to Opera</h3>
+            <p>Minimum version 46</p>
+            <img src="/images/bg-dots.svg" alt=" a dotted line image used to seperate the paragraph from the link">
+            <a href="#" class="btns blue-bg__btn"> Add & Install Extension</a>
+          </div>
         </div>
       </div>
-    </div>
     </div>
   </section>
 
   <section class="question-and-answer">
     <div class="wrapper">
-      <div class=" text-style q_a__title">
-        <h1>Frequently Asked Questions</h1>
-        <p> Here are some of our FAQs. If you have any other questions you’d like
-          answered please feel free to email us.</p>
+      <div class="fqa-box">
+        <div class=" text-style q_a__title">
+          <h1>Frequently Asked Questions</h1>
+          <p> Here are some of our FAQs. If you have any other questions you’d like
+            answered please feel free to email us.</p>
+        </div>
+
+        <div class="qus-container">
+
+          <!-- question answer -->
+          <div class="questions-card">
+            <div class="flex qus">
+              <h4>What is Bookmark?</h4>
+              <button class="down">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
+                  <path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8" />
+                </svg>
+              </button>
+            </div>
+            <div class="question-answer">
+              <div class="answer-wrapper">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt
+                  justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+              </div>
+            </div>
+          </div>
+          <!-- question answer -->
+          <div class="questions-card">
+            <div class="flex qus">
+              <h4> How can I request a new browser?</h4>
+              <button class="down">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
+                  <path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8" />
+                </svg>
+              </button>
+            </div>
+            <div class="question-answer">
+              <div class="answer-wrapper">
+                <p> Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula.
+                  Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+                  ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies.
+                  Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- question answer -->
+          <div class="questions-card">
+            <div class="flex qus">
+              <h4>Is there a mobile app?</h4>
+              <button class="down">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
+                  <path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8" />
+                </svg>
+              </button>
+            </div>
+            <div class="question-answer">
+              <div class="answer-wrapper">
+                <p> Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum
+                  urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed
+                  sollicitudin ex et ultricies bibendum.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- question answer -->
+          <div class="questions-card">
+            <div class="flex qus">
+              <h4>What about other Chromium browsers?</h4>
+              <button class="down">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
+                  <path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8" />
+                </svg>
+              </button>
+            </div>
+            <div class="question-answer">
+              <div class="answer-wrapper">
+                <p> Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam
+                  vitae neque eget nisl gravida pellentesque non ut velit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btns blue-bg__btn add-info">More info</a>
       </div>
-
-      <div class="qus-container">
-
-        <!-- question answer -->
-        <div class="questions-card">
-          <div class="flex qus">
-            <h4>What is Bookmark?</h4>
-            <button class="down">
-              <img src="/images/icon-arrow.svg" alt="an arrow icon to show frequently asked question"
-                class="down-arrow">
-            </button>
-          </div>
-          <div class="question-answer">
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt
-              justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
-          </div>
-        </div>
-        <!-- question answer -->
-        <div class="questions-card">
-          <div class="flex qus">
-            <h4> How can I request a new browser?</h4>
-            <button class="down">
-              <img src="/images/icon-arrow.svg" alt="an arrow icon to show frequently asked question"
-                class="down-arrow">
-            </button>
-          </div>
-          <div class="question-answer">
-            <p> Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula.
-              Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
-              ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies.
-              Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
-          </div>
-        </div>
-
-        <!-- question answer -->
-        <div class="questions-card">
-          <div class="flex qus">
-            <h4>Is there a mobile app?</h4>
-            <button class="down">
-              <img src="/images/icon-arrow.svg" alt="an arrow icon to show frequently asked question"
-                class="down-arrow">
-            </button>
-          </div>
-          <div class="question-answer">
-            <p> Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum
-              urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed
-              sollicitudin ex et ultricies bibendum.</p>
-          </div>
-        </div>
-
-        <!-- question answer -->
-        <div class="questions-card">
-          <div class="flex qus">
-            <h4>What about other Chromium browsers?</h4>
-            <button class="down">
-              <img src="/images/icon-arrow.svg" alt="an arrow icon to show frequently asked question"
-                class="down-arrow">
-            </button>
-          </div>
-          <div class="question-answer">
-            <p> Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam
-              vitae neque eget nisl gravida pellentesque non ut velit.</p>
-          </div>
-        </div>
-      </div>
-      <a href="#" class="btns blue-bg__btn add-info">More info</a>
     </div>
   </section>
 
   <section class="email-section">
     <div class="wrapper">
-      <div class="email-container">
-        <p>35,000+ already joined</p>
-        <h2> Stay up-to-date with what we’re doing</h2>
+      <div class="email-box">
+        <div class="email-container">
+          <p>35,000+ already joined</p>
+          <h2> Stay up-to-date with what we’re doing</h2>
+        </div>
+        <!-- email input -->
+        <form>
+          <div class="input-container">
+            <div class="email-input">
+              <input type="email" name="email" id="email" placeholder="Enter your email address">
+              <img src="/images/icon-error.svg"
+                alt="an error icon indicating that the email addresss input is incorrect" class="error-icon"
+                aria-hidden="true">
+              <span class="error-message" aria-hidden="true">whoops, make sure it's an email</span>
+            </div>
+            <div class="submit-form__container">
+              <input type="submit" value="Contact Us">
+            </div>
+          </div>
+        </form>
       </div>
-      <!-- email input -->
-      <form>
-        <div class="email-input">
-          <input type="email" name="email" id="email" placeholder="Enter your email address">
-          <img src="/images/icon-error.svg" alt="an error icon indicating that the email addresss input is incorrect"
-            class="error-icon" aria-hidden="true">
-          <span class="error-message">whoops, make sure it's an email</span>
-        </div>
-        <div class="submit-form__container">
-          <input type="submit" value="Contact Us">
-        </div>
-      </form>
     </div>
   </section>
 
